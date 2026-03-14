@@ -1,7 +1,7 @@
-import axios from 'axios'
+import axios from "axios";
 
 const api = axios.create({
-    baseURL: import.meta.env.VITE_BASE_URL
-})
+  baseURL: "https://resume-builder-app-2d7l.onrender.com/",
+});
 
-export default api
+export default api;
