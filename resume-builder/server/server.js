@@ -17,6 +17,8 @@ app.use(
   cors({
     origin:
       "https://resume-builder-ochm6fpsz-anurags-projects-6158872e.vercel.app",
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    credentials: true,
   }),
 );
 
